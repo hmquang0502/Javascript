@@ -1,4 +1,4 @@
-function showDialog(){
+function showDialog() {
     alert('Hi xin chao cac ban!')
 };
 showDialog();
@@ -11,9 +11,9 @@ showDialog();
 
 
 
-function writeLog(){
-    for(var param of arguments){
+function writeLog() {
+    for (var param of arguments) {
         console.log(param);
     }
 };
-writeLog('Test message','HMQ');
+writeLog('Test message', 'HMQ');
